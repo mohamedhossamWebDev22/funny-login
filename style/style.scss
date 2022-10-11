@@ -8,17 +8,54 @@ body, html{
     justify-content: center;
     align-items: center;
 
+    width: 100%;
+    height: 100%;
+
     background: $bgColor;
     .content{
         form{
+            background: $color1;
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: center;
+
+            padding: 10px 8px;
+
+            border-radius: 10px;
+
+            text-align: center;
+
+            box-shadow: 0px 1px 8px black;
             .title{
                 color: $bgColor;
 
                 font-size: 30px;
-                font-family: sans-serif;
+                font-family:cursive;
+                font-weight: bold;
             }
-            label{
+
+            #image{
+                width: 200px;
+
+                margin: 0 auto;
+
+                border-radius: 20%;
+            }
+
+            input{
                 font-size: $sM;
+
+                margin: 2px 4px;
+            }
+
+            #btn{
+                background: $bgColor;
+                color: $color1;
+
+                border-radius: 10px;
+                border: 1px solid $bgColor;
             }
         }
     }

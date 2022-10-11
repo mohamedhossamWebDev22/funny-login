@@ -3,13 +3,38 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   background: #106feb;
+}
+body .content form, html .content form {
+  background: #e0e3e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 8px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 1px 8px black;
 }
 body .content form .title, html .content form .title {
   color: #106feb;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: cursive;
+  font-weight: bold;
 }
-body .content form label, html .content form label {
-  font-size: 20px;
+body .content form #image, html .content form #image {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+body .content form input, html .content form input {
+  font-size: 16px;
+  margin: 2px 4px;
+}
+body .content form #btn, html .content form #btn {
+  background: #106feb;
+  color: #e0e3e7;
+  border-radius: 10px;
+  border: 1px solid #106feb;
 }/*# sourceMappingURL=style.css.map */
