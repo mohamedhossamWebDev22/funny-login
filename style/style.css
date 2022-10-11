@@ -1,1 +1,15 @@
-/*# sourceMappingURL=style.css.map */
+body, html {
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #106feb;
+}
+body .content form .title, html .content form .title {
+  color: #106feb;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+body .content form label, html .content form label {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

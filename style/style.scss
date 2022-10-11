@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+body, html{
+    scroll-behavior: smooth;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: $bgColor;
+    .content{
+        form{
+            .title{
+                color: $bgColor;
+
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+            label{
+                font-size: $sM;
+            }
+        }
+    }
+}
