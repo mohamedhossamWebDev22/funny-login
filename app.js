@@ -11,9 +11,18 @@ class login{
     email(){
         this.image.src = './imgs/img1.png';
     }
+
+    pass(){
+        this.image.src = './imgs/img3.png';
+    }
+
+    show(){
+        this.image.src = './imgs/img4.png';
+    }
 }
 
 const loginObj = new login();
 
 loginObj.emailIn.onclick = function (){loginObj.email()};
-
+loginObj.passIn.onclick = function (){loginObj.pass()};
+loginObj.showBtn.onclick = function (){loginObj.show()};

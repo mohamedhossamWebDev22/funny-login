@@ -32,7 +32,7 @@ body .content form input, html .content form input {
   font-size: 16px;
   margin: 2px 4px;
 }
-body .content form #btn, html .content form #btn {
+body .content form #btn, body .content form #showBtn, html .content form #btn, html .content form #showBtn {
   background: #106feb;
   color: #e0e3e7;
   border-radius: 10px;
