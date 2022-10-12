@@ -19,7 +19,18 @@ class login{
     }
 
     show(){
-        this.image.src = './imgs/img4.png';
+        if (canIseeIt){
+            this.passIn.type = 'text';
+            this.image.src = './imgs/img4.png';
+
+            canIseeIt = false;
+        }
+        else{
+            this.passIn.type= 'password';
+            this.image.src = './imgs/img3.png';
+
+            canIseeIt = true;
+        }
     }
 
     loginB(){
@@ -27,7 +38,19 @@ class login{
     }
 }
 
+function key() {
+    var ke = event.key;
+
+    if (ke == "j" || ke == "J") {
+        alert ("Does your name is Jemmy??");
+    }
+}
+
+
 const loginObj = new login();
+
+let canIseeIt = true;
+
 
 loginObj.emailIn.onclick = function (){loginObj.email()};
 loginObj.passIn.onclick = function (){loginObj.pass()};
