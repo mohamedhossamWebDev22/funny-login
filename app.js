@@ -9,10 +9,11 @@ class login{
     }
 
     email(){
-        this.image.src = '../imgs/img1.png';
+        this.image.src = './imgs/img1.png';
     }
 }
 
 const loginObj = new login();
 
 loginObj.emailIn.onclick = function (){loginObj.email()};
+
